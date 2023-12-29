@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #F7F7F8;
+
+}
+
+.container{
+    background-color: #F7F7F8;
+    width: calc(100% - 140px);
+    margin: auto;
+    padding: 30px;
+
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 34px;
+    
+}
+nav a{
+    color: #262626;
+}
+nav img{
+ background-color: orange;
+ margin-right: 20px;
+ padding: 7px;
+ border-radius: 10px;
+}
+
+.active{
+    background-color: #F1F1F3;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+.auth{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+}
+.auth a{
+    color: #262626;
+}
+.login{
+    background-color: #FF9500;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.top{
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    
+}
+
+.top .svg_class{
+    position: relative;
+    top: 34px;
+    right: 29px;
+    
+}
+
+.hero .title{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    gap:10px;
+}
+.top .title h1{
+    font-size: 34px;
+}
+
+.title svg{
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: #FFF4E5;
+    
+}
+.title .word{
+    color: #FF9500;
+}
+.paragh{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.top .paragh h1{
+    font-size: 27px;
+}
+.top .paragh p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.hero .auth{
+    justify-content: center;
+    margin-top: 50px;
+    gap: 14px;
+    
+}
+.auth svg{
+    display: none;
+}
+.hero .explore{
+    padding: 20px;
+    background-color: #FF9500;
+    border-radius: 8px;
+
+}
+.hero .pricing{
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+
+}
+.hero .explore {
+    color: white;
+
+}
+.hero .pricing{
+    color: #262626;
+    font-weight: bold;
+}
+
+
+.hero .center{
+    background-color: white;
+    
+    padding: 50px  ;
+    display: flex;
+    justify-content: space-around;
+
+    
+    
+}
+.hero_pic img{
+    width: 100%;
+    
+    
+    
+    
+}
+.hero_pic svg{
+   background-color: #262626;
+   background: rgba(255, 255, 255, 0.20);
+   box-sizing: content-box;
+   padding: 7px;
+   border: 6px solid rgba(255, 255, 255, 0.30);
+   border-radius: 50%;
+   position: relative;
+   bottom: 620px;
+   left: 820px;
+}
+
+
+
+
+.bene_paragh{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bene_top{
+    margin-bottom: 70px;
+}
+.bene_top h2 {
+    font-size: 40px;
+    margin-bottom: 14px;
+    margin-top: 60px;
+
+}
+.bene_paragh a{
+    font-weight: 600;
+    background-color: white;
+    padding: 14px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    border-radius: 8px;
+    color: black;
+}
+.bene_paragh p{
+    width: 1050px;
+}
+
+.bene_bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  
+}
+.bene_item{
+    background-color: white;
+    border-radius: 12px;
+    width: calc( ( 100% - 40px ) / 3 ) ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 546px;
+    
+    
+    
+}
+.bene_item p{
+    width: 500px;
+    font-size: 20px;
+}
+.bene_item h2{
+    font-size: 70px;
+    margin-right: 40px;
+    
+    
+}
+.bene_item svg{
+    padding: 10px;
+    box-sizing: content-box;
+    margin-right: 40px;
+    background-color: #FCFCFD;
+    border: 1px solid var(--White-95, #F1F1F3);
+    
+    
+}
+.bene_item h3{
+    width: 500px;
+    font-size: 30px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+.course_top{
+    margin-bottom: 70px;
+}
+.course_top h2{
+    font-size: 40px;
+    margin-bottom: 14px;
+    margin-top: 60px;
+}
+.course_paragh{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.course_paragh a{
+    font-weight: 600;
+    background-color: white;
+    padding: 14px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    border-radius: 8px;
+    color: black;
+}
+.course_paragh p{
+    width: 1050px;
+}
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+   
+}
+.course_item{
+    padding: 50px 0px;
+    width: calc((100% - 40px ) / 2 );
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    
+}
+.Image{
+    margin: auto;
+}
+
+.time{
+    display: flex;
+    width: 684px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.weeks{
+    display: flex;
+    gap: 10px;
+}
+.weeks a{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background-color: #FFF;
+
+
+
+}
+.course_des{
+    width: 684px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.get_it{
+    color: #262626;
+    text-align: center;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background-color: #F7F7F8;
+}
+.course_item h4{
+    font-size: 16px;
+}
+.para_size{
+    width: 550px;
+}
+
+
+
+
+
+
+
+
+.test_top h2 {
+    font-size: 40px;
+    margin-bottom: 14px;
+    margin-top: 60px;
+
+}
+.test_paragh{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.test_paragh p{
+    width: 1050px;
+}
+.test_paragh a{
+    font-weight: 600;
+    background-color: white;
+    padding: 14px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    border-radius: 8px;
+    color: black;
+}
+.paragraph p{
+    width: 600px;
+}
+.test_item .paragraph{
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+}
+.test_bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCFCFD;
+    padding: 24px;
+    border-radius: 8px;
+}
+.bottom_pic{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.bottom_pic a{
+    color: #333;
+    font-weight: 600;
+   
+}
+.bottom_a{
+    font-weight: 600;
+    padding: 20px;
+    background-color:#F7F7F8 ;
+    color: #4C4C4D;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+}
+.test_item{
+    width: calc( (100% - 30px ) / 2 );
+    
+
+}
+
+
+
+
+
+
+
+.join p{
+    width: 900px;
+    
+}
+.Our_Pricing .join{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.price_title h2{
+    font-size: 40px;
+    margin-bottom: 14px;
+    margin-top: 60px;
+}
+.join .auth{
+    
+    background-color: white;
+    padding: 10px 15px ;
+    border-radius: 8px;
+    
+}
+.monthly{
+    color: white;
+    background-color: #FF9500;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+    padding: 100px 5px;
+}
+.color{
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+    padding: 20px;
+}
+
+.available_feat{
+    padding: 40px 40px;
+    background-color: white;
+    border-radius: 14px 14px 0px 0px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    
+}
+.pricing_top{
+    margin-bottom: 60px;
+}
+
+.centering{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.plans .plan_title h3{
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid var(--Orange-90, #FFEACC);
+}
+.plans h3{
+    width: 508px;
+    background-color: #FFF9F0;
+    text-align: center;
+}
+.plans .price h3{
+    background: var(--White-99, #FCFCFD);
+    font-size: 84px;
+}
+.plans ul{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+.plans li{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+.plans svg{
+    background-color: #FFF4E5;
+    padding: 5px;
+    box-sizing: content-box;
+}
+.plans .x-mark{
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background-color: white;
+}
+.plans .get_started{
+    border-radius: 0px 0px 8px 8px;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: #FF9500;
+    
+}
+.price_::after{
+    content: "/month";
+    color: #4C4C4D;
+
+    font-size: 20px;
+    
+}
+.get_started a{
+    
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: white;
+    margin-top: 60px;
+}
+footer a{
+    color:#59595A;
+}
+footer .container{
+    padding: 90px 14px;
+    background-color: white;
+
+}
+.start,.end{
+    width: calc( (100% - 40px ) / 2 );
+
+}
+.start img{
+    background-color: #FF9500;
+    padding: 7px;
+    border-radius: 10px;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.start .item{
+
+    display: flex;
+    gap: 6px;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+.end nav{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    
+}
+.end h2{
+    margin-bottom: 30px;
+}
+.end svg{
+    box-sizing: content-box;
+    padding: 16px;
+    background-color: #F1F1F3;
+    border-radius: 10px;
+    
+
+}
+.end .icons{
+    display: flex;
+    gap: 8px;
+}
+
+@media screen and (max-width:1440px) {
+    .hero_pic svg{
+        bottom: 450px;
+        left: 590px;
+    }
+
+     
+    .bene_item{
+        height: 400px;
+    }
+    
+    .bene_item p{
+        width: 340px;
+        margin-inline-end: 163px;
+        
+        font-size: 17px;
+    }
+    .bene_item h2{
+        font-size: 60px;
+        margin-inline-end: 170px;
+        
+       
+        
+        
+        
+    }
+    .bene_item svg{
+        
+        margin-right: 170px;
+        
+        
+        
+    }
+    .bene_item h3{
+        font-size: 20px;
+        margin-left: 50px;
+        
+    }
+    .Image img{
+        width: 530px;
+        
+         
+        
+    }
+    .time{
+        
+        width: 530px;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .weeks{
+        display: flex;
+        
+        gap: 10px;
+    }
+    .course_des{
+        width: 530px;
+    }
+    .paragraph p{
+        width: 560px;
+    }
+
+
+
+
+   
+    
+}
+
+@media screen and (max-width:390px) {
+    nav a{
+        display: none;
+    }
+    .row{
+        flex-wrap: nowrap;
+        gap: 400px;
+    }
+    .auth{
+        flex-wrap: nowrap;
+    }
+    .auth svg{
+        display: block;
+    }
+    
+
+
+}
